@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Вятка localhost</title>
+<meta name="description" content="Вятка localhost — ИТ-тусовка в живописном парке в 35 км от Кирова">
+<link rel="icon" href="synaptik-ssd-archive/assets/synaptik.ru/files/favicon_20211126155153.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-dark: #1c1c1c;
+    --bg-darker: #141414;
+    --bg-light: #f5f5f5;
+    --accent: #e8432c;
+    --accent-hover: #c73520;
+    --text-white: #ffffff;
+    --text-dark: #1c1c1c;
+    --text-muted: #666;
+    --font: 'Montserrat', sans-serif;
+    --max-w: 1200px;
+    --section-pad: 70px 0;
+  }
+
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font); background: var(--bg-dark); color: var(--text-white); line-height: 1.6; }
+
+  /* ── HEADER ── */
+  .header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(0,0,0,0.85); backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .header-inner {
+    max-width: var(--max-w); margin: 0 auto; padding: 0 24px;
+    display: flex; align-items: center; justify-content: space-between; height: 64px;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text-white); }
+  .logo-icon { width: 36px; height: 36px; }
+  .logo-text { font-weight: 700; font-size: 16px; letter-spacing: 0.5px; }
+  nav { display: flex; gap: 28px; }
+  nav a {
+    color: rgba(255,255,255,0.85); text-decoration: none;
+    font-size: 14px; font-weight: 500; transition: color .2s;
+    white-space: nowrap;
+  }
+  nav a:hover { color: #fff; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; padding: 10px 22px; text-transform: uppercase; transition: background .2s; white-space: nowrap; cursor: pointer; border: none; }
+  .btn:hover { background: var(--accent-hover); }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative; min-height: 100vh;
+    display: flex; align-items: center;
+    overflow: hidden; padding-top: 64px;
+  }
+  .hero-overlay {
+    position: absolute; inset: 0; background: rgba(0,0,0,0.55); z-index: 1;
+  }
+  .hero-content {
+    position: relative; z-index: 2;
+    max-width: var(--max-w); margin: 0 auto; padding: 80px 24px;
+    max-width: 700px; margin-left: 80px;
+  }
+  .hero-tag {
+    display: inline-block; background: var(--accent); color: #fff;
+    font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 5px 12px; margin-bottom: 14px;
+  }
+  .hero-date {
+    font-size: 15px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    color: #fff; margin-bottom: 6px;
+  }
+  .hero-location { font-size: 15px; font-weight: 400; color: rgba(255,255,255,0.9); margin-bottom: 28px; }
+  .hero-title {
+    font-size: clamp(56px, 10vw, 104px); font-weight: 700; line-height: 1.15;
+    color: #fff; margin-bottom: 28px;
+  }
+  .hero-list { list-style: none; margin-bottom: 36px; }
+  .hero-list li {
+    font-size: 16px; color: rgba(255,255,255,0.9);
+    padding: 4px 0 4px 20px; position: relative;
+  }
+  .hero-list li::before { content: '—'; position: absolute; left: 0; color: var(--accent); }
+
+  /* ── SECTION COMMON ── */
+  .section { padding: var(--section-pad); }
+  .section--dark { background: var(--bg-dark); }
+  .section--darker { background: var(--bg-darker); }
+  .section--light { background: var(--bg-light); color: var(--text-dark); }
+  .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+  .section-title {
+    font-size: clamp(24px, 4vw, 38px); font-weight: 700; margin-bottom: 12px; line-height: 1.2;
+  }
+  .section-subtitle { font-size: 15px; color: rgba(255,255,255,0.6); margin-bottom: 48px; }
+  .section--light .section-subtitle { color: var(--text-muted); }
+
+  /* ── VENUE ── */
+  .venue-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
+  }
+  .venue-video-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+  .venue-video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .venue-text h2 { font-size: clamp(20px, 3vw, 30px); font-weight: 700; margin-bottom: 12px; }
+  .venue-text p { font-size: 15px; color: rgba(255,255,255,0.8); margin-bottom: 16px; }
+  .venue-text ul { list-style: none; }
+  .venue-text ul li { font-size: 15px; color: rgba(255,255,255,0.8); padding: 4px 0 4px 18px; position: relative; }
+  .venue-text ul li::before { content: '•'; position: absolute; left: 0; color: var(--accent); }
+
+  /* ── CARDS: ЧТО БУДЕТ ── */
+  .cards-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .card {
+    background: #2a2a2a; padding: 0 0 28px; display: flex; flex-direction: column;
+    transition: transform .2s;
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card-img {
+    width: 100%; aspect-ratio: 8/5; background: #333 center/cover no-repeat;
+    margin-bottom: 20px;
+  }
+  .card-body { padding: 0 20px; flex: 1; display: flex; flex-direction: column; }
+  .card-title { font-size: 17px; font-weight: 700; margin-bottom: 10px; }
+  .card-desc { font-size: 14px; color: rgba(255,255,255,0.75); line-height: 1.65; }
+  .card-desc ul { list-style: disc; padding-left: 18px; margin-top: 6px; }
+  .card-desc li { margin-bottom: 3px; }
+
+  /* ── PROGRAMME ── */
+  .schedule { max-width: 560px; }
+  .schedule-item {
+    display: flex; gap: 20px; padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 15px;
+  }
+  .schedule-time { font-weight: 700; color: var(--accent); min-width: 70px; white-space: nowrap; }
+  .schedule-desc { color: rgba(255,255,255,0.85); }
+
+  /* ── SPEAKERS ── */
+  .speakers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; }
+  .speaker-card { background: #2a2a2a; padding: 24px; }
+  .speaker-avatar {
+    width: 80px; height: 80px; border-radius: 50%; background: #444;
+    margin-bottom: 14px; display: flex; align-items: center; justify-content: center;
+    font-size: 28px; color: rgba(255,255,255,0.3);
+  }
+  .speaker-name { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+  .speaker-talk { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.5; font-style: italic; }
+  .speakers-note { margin-top: 32px; font-size: 14px; color: rgba(255,255,255,0.6); }
+  .speakers-note a { color: var(--accent); text-decoration: none; }
+  .speakers-note a:hover { text-decoration: underline; }
+
+  /* ── DIRECTIONS ── */
+  .directions-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+  .directions-info h3 { font-size: 17px; font-weight: 700; margin-bottom: 10px; margin-top: 28px; }
+  .directions-info h3:first-child { margin-top: 0; }
+  .directions-info p { font-size: 15px; color: rgba(255,255,255,0.8); margin-bottom: 10px; line-height: 1.6; }
+  .directions-info a { color: var(--accent); text-decoration: none; }
+  .directions-info a:hover { text-decoration: underline; }
+  .map-embed { border: 0; width: 100%; height: 340px; }
+
+  /* ── EXTRAS ── */
+  .extras-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 40px; }
+  .extra-block { padding: 28px; background: rgba(255,255,255,0.05); }
+  .extra-block h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; }
+  .extra-block p { font-size: 14px; color: rgba(255,255,255,0.75); line-height: 1.6; }
+
+  /* ── PRICING ── */
+  .pricing-grid { display: grid; grid-template-columns: repeat(2, 320px); gap: 28px; justify-content: center; }
+  .price-card {
+    background: #2a2a2a; padding: 36px 32px;
+    display: flex; flex-direction: column; align-items: flex-start;
+  }
+  .price-card--featured { background: #333; border: 2px solid var(--accent); }
+  .price-name { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+  .price-amount { font-size: 38px; font-weight: 800; color: var(--accent); margin-bottom: 24px; }
+  .price-features { list-style: none; margin-bottom: 32px; flex: 1; width: 100%; }
+  .price-features li {
+    font-size: 14px; color: rgba(255,255,255,0.85);
+    padding: 7px 0 7px 22px; border-bottom: 1px solid rgba(255,255,255,0.08);
+    position: relative;
+  }
+  .price-features li::before { content: '✓'; position: absolute; left: 0; color: #4caf50; font-weight: 700; }
+  .price-features li.featured { font-weight: 600; color: #fff; }
+  .price-card .btn { align-self: stretch; text-align: center; }
+
+  /* ── FAQ ── */
+  .faq-list { max-width: 820px; }
+  .faq-item { border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .faq-q {
+    width: 100%; background: none; border: none; color: #fff;
+    font-family: var(--font); font-size: 16px; font-weight: 600;
+    text-align: left; padding: 20px 40px 20px 0; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    position: relative;
+  }
+  .faq-q::after {
+    content: '+'; position: absolute; right: 0; font-size: 22px; font-weight: 300;
+    transition: transform .25s;
+  }
+  .faq-item.open .faq-q::after { transform: rotate(45deg); }
+  .faq-a { display: none; font-size: 14px; color: rgba(255,255,255,0.75); padding: 0 0 20px; line-height: 1.7; }
+  .faq-item.open .faq-a { display: block; }
+
+  /* ── ABOUT ── */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+  .about-logo { max-width: 180px; }
+  .about-text h2 { font-size: clamp(22px,3vw,34px); font-weight: 700; margin-bottom: 20px; }
+  .about-text ul { list-style: none; }
+  .about-text ul li { font-size: 16px; color: rgba(255,255,255,0.85); padding: 5px 0; }
+
+  /* ── FOOTER ── */
+  .footer { background: #0d0d0d; padding: 56px 0 32px; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; margin-bottom: 40px; }
+  .footer-brand p { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 12px; line-height: 1.7; }
+  .footer-col h4 { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 16px; }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li { font-size: 14px; color: rgba(255,255,255,0.7); margin-bottom: 8px; }
+  .footer-col a { color: rgba(255,255,255,0.7); text-decoration: none; }
+  .footer-col a:hover { color: #fff; }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;
+    font-size: 12px; color: rgba(255,255,255,0.3); display: flex; justify-content: space-between;
+  }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0; z-index: 200;
+    background: rgba(0,0,0,0.75); align-items: center; justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal-box {
+    background: #222; width: 100%; max-width: 520px; max-height: 90vh;
+    overflow-y: auto; padding: 40px 36px; position: relative;
+  }
+  .modal-close {
+    position: absolute; top: 16px; right: 20px;
+    background: none; border: none; color: rgba(255,255,255,0.5);
+    font-size: 20px; cursor: pointer; line-height: 1;
+  }
+  .modal-close:hover { color: #fff; }
+  .modal-title { font-size: 24px; font-weight: 800; margin-bottom: 8px; }
+  .modal-subtitle { font-size: 14px; color: rgba(255,255,255,0.55); margin-bottom: 28px; line-height: 1.5; }
+
+  .form-group { margin-bottom: 18px; }
+  .form-group label { display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 6px; }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%; background: #2d2d2d; border: 1px solid rgba(255,255,255,0.1);
+    color: #fff; font-family: var(--font); font-size: 15px;
+    padding: 12px 14px; outline: none; transition: border-color .2s;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--accent); }
+  .form-group select option { background: #2d2d2d; }
+  .form-group textarea { resize: vertical; }
+  .btn--full { width: 100%; text-align: center; margin-top: 8px; padding: 14px; font-size: 14px; }
+  .form-legal { font-size: 11px; color: rgba(255,255,255,0.3); margin-top: 12px; text-align: center; line-height: 1.5; }
+
+  .field-error { display: none; font-size: 11px; color: var(--accent); margin-top: 5px; }
+  .form-group.invalid input,
+  .form-group.invalid select,
+  .form-group.invalid textarea { border-color: var(--accent); }
+  .form-group.invalid .field-error { display: block; }
+
+  .qty-control { display: flex; align-items: center; gap: 0; }
+  .qty-btn {
+    width: 42px; height: 44px; background: #3a3a3a; border: 1px solid rgba(255,255,255,0.1);
+    color: #fff; font-size: 20px; cursor: pointer; transition: background .2s; flex-shrink: 0;
+  }
+  .qty-btn:hover { background: var(--accent); }
+  .qty-control input {
+    width: 60px; text-align: center; border-left: none; border-right: none;
+    -moz-appearance: textfield; pointer-events: none;
+  }
+  .qty-control input::-webkit-outer-spin-button,
+  .qty-control input::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+  .form-total {
+    background: rgba(232,67,44,0.1); border: 1px solid rgba(232,67,44,0.3);
+    padding: 14px 16px; margin-bottom: 18px; font-size: 16px; color: rgba(255,255,255,0.8);
+  }
+  .form-total strong { color: var(--accent); font-size: 20px; }
+
+  .form-success { text-align: center; padding: 20px 0; }
+  .success-icon { width: 64px; height: 64px; border-radius: 50%; background: #4caf50; display: flex; align-items: center; justify-content: center; font-size: 28px; margin: 0 auto 20px; }
+  .form-success h3 { font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+  .form-success p { font-size: 15px; color: rgba(255,255,255,0.7); line-height: 1.6; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .venue-grid, .directions-grid, .about-grid, .footer-grid { grid-template-columns: 1fr; }
+    .cards-grid { grid-template-columns: repeat(2, 1fr); }
+    .extras-grid { grid-template-columns: 1fr; }
+    .pricing-grid { grid-template-columns: 1fr; justify-content: stretch; }
+    .pricing-grid .price-card { width: 100%; max-width: 400px; }
+    nav { display: none; }
+    .hero-content { margin-left: 24px; }
+  }
+  @media (max-width: 560px) {
+    .cards-grid { grid-template-columns: 1fr; }
+    .hero-title { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header class="header">
+  <div class="header-inner">
+    <a class="logo" href="#">
+            <span class="logo-text">localhost</span>
+    </a>
+    <nav>
+      <a href="#programme">Программа</a>
+      <a href="#speakers">Спикеры</a>
+      <a href="#directions">Как добраться</a>
+      <a href="#pricing">Стоимость</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn" href="#pricing">Зарегистрироваться</a>
+  </div>
+</header>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">AI Конференция · Кировская область</div>
+    <div class="hero-date">Воскресенье, 19 июля 2026</div>
+    <div class="hero-location">Слободской, Поселок программистов, Парк Инженер</div>
+    <h1 class="hero-title">Вятка localhost</h1>
+    <ul class="hero-list">
+      <li>100 лучших разработчиков из Кирова</li>
+      <li>4 спикера</li>
+      <li>Спортивные активности и отдых на берегу озера</li>
+      <li>Никаких клиентов, правок и хантинга</li>
+      <li>Безлимит на sup-board</li>
+      <li>After-party</li>
+    </ul>
+    <a class="btn" href="#pricing">Зарегистрироваться</a>
+  </div>
+</section>
+
+<!-- ═══ VENUE ═══ -->
+<section class="section section--darker" id="venue">
+  <div class="container">
+    <div class="venue-grid">
+      <div class="venue-video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/Hq8jCl8_Rno?rel=0&modestbranding=1"
+          frameborder="0" allowfullscreen title="SSD 2022 venue"></iframe>
+      </div>
+      <div class="venue-text">
+        <h2>🏕 Место проведения<br>Вятка localhost</h2>
+        <p>Вятка localhost пройдет в Парке Инженер, поселок программистов, Слободской</p>
+        <p><strong>На площадке организован:</strong></p>
+        <ul>
+          <li>Лекториум</li>
+          <li>Площадка для волейбола и тенниса</li>
+          <li>Мангальная зона</li>
+          <li>Палаточный городок</li>
+          <li>Музыка, безлимит на кальян, перекус, обед, ужин</li>
+          <li>Пирс с водными активностями</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ЧТО БУДЕТ ═══ -->
+<section class="section section--dark">
+  <div class="container">
+    <h2 class="section-title">Что будет на Вятка localhost?</h2>
+    <p class="section-subtitle">Вятка localhost</p>
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="card-img" style="background-color: #2d3748;"></div>
+        <div class="card-body">
+          <div class="card-title">Конференция</div>
+          <div class="card-desc">
+            Только спикеры-практики и реальные кейсы — никакой воды. Темы докладов:
+            <ul>
+              <li>LLM и нейросети в продакшене</li>
+              <li>AI-инструменты для разработчиков</li>
+              <li>Автоматизация с AI-агентами</li>
+              <li>Machine Learning на практике</li>
+              <li>Будущее AI в IT-индустрии</li>
+            </ul>
+            <br><a href="#speakers" style="color:var(--accent);font-weight:700;text-decoration:none;">Список спикеров</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-color: #2d4a3e;"></div>
+        <div class="card-body">
+          <div class="card-title">Нетворкинг</div>
+          <div class="card-desc">
+            Лаунж-зоны по интересам:
+            <ul>
+              <li>Профессиональные связи</li>
+              <li>Новое мотивирующее окружение</li>
+              <li>Обмен идеями</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-color: #3a2d1a;"></div>
+        <div class="card-body">
+          <div class="card-title">Активности</div>
+          <div class="card-desc">
+            Природа и активный отдых:
+            <ul>
+              <li>Волейбол</li>
+              <li>Теннис</li>
+              <li>Сапборды</li>
+              <li>Катание на лодке</li>
+              <li>Катамараны</li>
+              <li>Бадминтон</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-color: #2a1a3a;"></div>
+        <div class="card-body">
+          <div class="card-title">Afterparty</div>
+          <div class="card-desc">
+            Яркое afterparty под приятную музыку!
+            <ul>
+              <li>Вечер у костра</li>
+              <li>Выступление разработчиков на бас гитарах</li>
+              <li>DJ</li>
+              <li>Выездной бар</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ПРОГРАММА ═══ -->
+<section class="section section--darker" id="programme">
+  <div class="container">
+    <h2 class="section-title">Программа мероприятия</h2>
+    <div class="schedule">
+      <div class="schedule-item"><span class="schedule-time">09:00</span><span class="schedule-desc">Трансфер из Кирова</span></div>
+      <div class="schedule-item"><span class="schedule-time">10:00</span><span class="schedule-desc">Открытие для гостей</span></div>
+      <div class="schedule-item"><span class="schedule-time">11:00</span><span class="schedule-desc">Официальное открытие конференции</span></div>
+      <div class="schedule-item"><span class="schedule-time">11:10</span><span class="schedule-desc">Доклады спикеров</span></div>
+      <div class="schedule-item"><span class="schedule-time">14:00</span><span class="schedule-desc">Обед</span></div>
+      <div class="schedule-item"><span class="schedule-time">15:00</span><span class="schedule-desc">Доклады спикеров</span></div>
+      <div class="schedule-item"><span class="schedule-time">17:00</span><span class="schedule-desc">Турнир по бирпонгу</span></div>
+      <div class="schedule-item"><span class="schedule-time">18:30</span><span class="schedule-desc">Ужин</span></div>
+      <div class="schedule-item"><span class="schedule-time">19:00</span><span class="schedule-desc">Объявление победителей + общее фото</span></div>
+      <div class="schedule-item"><span class="schedule-time">19:30</span><span class="schedule-desc">Рок-концерт и начало after-party</span></div>
+      <div class="schedule-item"><span class="schedule-time">20:30</span><span class="schedule-desc">DJ-сет</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ СПИКЕРЫ ═══ -->
+<section class="section section--dark" id="speakers">
+  <div class="container">
+    <h2 class="section-title">🎙 Спикеры</h2>
+    <div class="speakers-grid">
+
+      <div class="speaker-card">
+        <div class="speaker-avatar">👤</div>
+        <div class="speaker-name">Дмитрий Орлов</div>
+        <div class="speaker-talk">«LLM в продакшене: как не сжечь бюджет и получить результат»</div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-avatar">👤</div>
+        <div class="speaker-name">Алексей Конышев</div>
+        <div class="speaker-talk">«AI-агенты на практике: автоматизируем рутину за неделю»</div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-avatar">👤</div>
+        <div class="speaker-name">Сергей Волков</div>
+        <div class="speaker-talk">«Как мы внедрили AI в code review и ускорили команду в 2 раза»</div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-avatar">👤</div>
+        <div class="speaker-name">Антон Белов</div>
+        <div class="speaker-talk">«RAG без боли: строим базу знаний компании на нейросетях»</div>
+      </div>
+
+
+    </div>
+
+    <p class="speakers-note">
+      Список спикеров дополняется. Хочешь поделиться своим экспертным опытом в сфере IT?<br>
+      Напиши в Telegram <a href="https://t.me/lev_araslanov">@lev_araslanov</a> с пометкой «Хочу стать спикером на SSD».
+    </p>
+  </div>
+</section>
+
+<!-- ═══ КАК ДОБРАТЬСЯ ═══ -->
+<section class="section section--darker" id="directions">
+  <div class="container">
+    <h2 class="section-title">📍 Как добраться?</h2>
+    <div class="directions-grid">
+      <div class="directions-info">
+        <p><strong>Парковая улица, 2, деревня Беляевская,</strong><br>Слободской район, Кировская область, 613137</p>
+
+        <h3>На своей машине или такси</h3>
+        <p><a href="https://yandex.ru/maps/?text=Кировская+область+Слободской+район+деревня+Беляевская+Парковая+2" target="_blank">Координаты на Яндекс Картах →</a></p>
+
+        <h3>Трансфер</h3>
+        <p>Трансфер на мероприятие включён в стоимость билета!<br><br>В 9:00 отправление автобуса с Театральной площади.<br>Если планируете добираться самостоятельно — при покупке билета можно выбрать вариант без трансфера.</p>
+
+        <h3>🍔 Питание</h3>
+        <p>Голодными на нашей тусовке вы не останетесь. На территории парка будет работать повар, который приготовит двухразовое питание. Также вы можете привезти еду и напитки с собой. Весь день будет работать бар с напитками.</p>
+
+        <h3>⛺️ Размещение</h3>
+        <p>Хватай с собой палатку и оставайся ночевать на берегу озера под прекрасным звездным небом.</p>
+
+        <h3>🐶 Берите с собой друзей</h3>
+        <p>Берите с собой друзей, семью и домашних питомцев. Мы будем им рады, даже если они не разбираются в коде.</p>
+      </div>
+      <div>
+        <iframe
+          class="map-embed"
+          src="https://yandex.ru/map-widget/v1/?ll=50.073916%2C58.681541&z=13&pt=50.073916,58.681541,pm2rdm"
+          frameborder="0"
+          allowfullscreen
+          title="Карта проезда"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ СТОИМОСТЬ ═══ -->
+<section class="section section--dark" id="pricing">
+  <div class="container">
+    <h2 class="section-title" style="text-align:center;">Купить билет на Вятка localhost</h2>
+    <p class="section-subtitle" style="text-align:center;">Выберите подходящий тариф</p>
+    <div class="pricing-grid">
+
+      <div class="price-card">
+        <div class="price-name">STANDARD</div>
+        <div class="price-amount">5 000 ₽</div>
+        <ul class="price-features">
+          <li>AI-конференция — 5 спикеров-практиков</li>
+          <li>Водные активности (безлимит на сапы, катамараны, лодки)</li>
+          <li>Безлимит на кальяны и спортивные активности</li>
+          <li>Обед и ужин</li>
+          <li>Рок-концерт + DJ-вечеринка</li>
+          <li>Турнир по бирпонгу</li>
+        </ul>
+        <a class="btn" href="mailto:info@synaptik.ru?subject=Регистрация Вятка localhost STANDARD">Зарегистрироваться</a>
+      </div>
+
+      <div class="price-card price-card--featured">
+        <div class="price-name">STANDARD + ROAD</div>
+        <div class="price-amount">6 000 ₽</div>
+        <ul class="price-features">
+          <li>AI-конференция — 5 спикеров-практиков</li>
+          <li>Водные активности (безлимит на сапы, катамараны, лодки)</li>
+          <li>Безлимит на кальяны и спортивные активности</li>
+          <li>Обед и ужин</li>
+          <li>Рок-концерт + DJ-вечеринка</li>
+          <li>Турнир по бирпонгу</li>
+          <li class="featured">Трансфер туда и обратно</li>
+        </ul>
+        <a class="btn" href="mailto:info@synaptik.ru?subject=Регистрация Вятка localhost STANDARD+ROAD">Зарегистрироваться</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ FAQ ═══ -->
+<section class="section section--dark" id="faq">
+  <div class="container">
+    <h2 class="section-title">Здесь есть все ответы</h2>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-q">Что если мне не с кем ехать?</button>
+        <div class="faq-a">Берите с собой друзей не из ИТ сферы, мы будем рады всем!</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Если я не из сферы ИТ, могу ли приехать?</button>
+        <div class="faq-a">Конечно, если вы хотите посетить парк и активно отдохнуть на выходных. Кто знает, может после мероприятия вы решите сменить сферу деятельности 😉</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Что мне с собой взять?</button>
+        <div class="faq-a">
+          Если вы хотите остаться до конца мероприятия и провести ночь на природе:<br><br>
+          • <strong>Матрас или пенка</strong> — вы же не хотите не спать всю ночь из-за этих бесячих шишек?<br>
+          • <strong>Спальник или одеяло</strong> — если вы закалены, этот пункт можно пропустить.<br>
+          • <strong>Панама и крем с SPF</strong> — для защиты от солнца.<br>
+          • <strong>Дождевик</strong> — для защиты от дождя. Но мы искренне надеемся, что он не понадобится.<br>
+          • <strong>Портативная зарядка</strong> — очень рекомендуем захватить.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Можно ли арендовать палатку?</button>
+        <div class="faq-a">К сожалению, мы не предоставляем палатки в аренду. Но вы можете найти объявления на Авито.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Если я купил билет и еду со своей палаткой, за неё нужно доплачивать?</button>
+        <div class="faq-a">Нет, размещение со своей палаткой для участников бесплатное.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Ловит ли связь? Есть ли Wi-Fi на территории?</button>
+        <div class="faq-a">На территории парка есть Wi-Fi и работает сотовая связь.</div>
+      </div>
+
+
+      <div class="faq-item">
+        <button class="faq-q">Рыба в пруду водится? Купаться можно?</button>
+        <div class="faq-a">Да — вплоть до щуки. Удочек в прокат нет. Купаться можно, есть небольшой песочный пляж.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Можно ли к вам с собакой?</button>
+        <div class="faq-a">Да, берите своих питомцев, если они воспитанные.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Есть ли питьевая вода?</button>
+        <div class="faq-a">В парке есть своя скважина с системой фильтров, поэтому без питьевой воды мы не останемся.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q">Я хочу быть спикером</button>
+        <div class="faq-a">Напишите нам в Telegram <a href="https://t.me/lev_araslanov" style="color:var(--accent);">@lev_araslanov</a> с пометкой «Хочу стать спикером на localhost».</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+79539434900">+7 953 943 49 00</a></li>
+          <li><a href="https://vk.com/parkengineer" target="_blank">Vkontakte</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Инженер. Все права защищены.</span>
+      <span>Вятка localhost</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══ МОДАЛЬНАЯ ФОРМА РЕГИСТРАЦИИ ═══ -->
+<div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-label="Регистрация">
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close" aria-label="Закрыть">✕</button>
+    <h2 class="modal-title" id="modal-title">Регистрация</h2>
+    <p class="modal-subtitle" id="modal-subtitle">Заполните форму — мы свяжемся с вами для подтверждения и оплаты</p>
+
+    <form class="reg-form" id="reg-form" novalidate>
+      <div class="form-group">
+        <label for="f-name">Имя *</label>
+        <input type="text" id="f-name" name="name" placeholder="Иван Иванов" required>
+        <span class="field-error">Заполните это поле</span>
+      </div>
+      <div class="form-group">
+        <label for="f-phone">Телефон *</label>
+        <input type="tel" id="f-phone" name="phone" placeholder="+7 900 000 00 00" required pattern="[\+\d\s\-\(\)]{7,}">
+        <span class="field-error">Введите корректный номер</span>
+      </div>
+      <div class="form-group">
+        <label for="f-email">Email *</label>
+        <input type="email" id="f-email" name="email" placeholder="ivan@example.com" required>
+        <span class="field-error">Введите корректный email</span>
+      </div>
+      <div class="form-group">
+        <label for="f-tariff">Тариф *</label>
+        <select id="f-tariff" name="tariff" required>
+          <option value="" disabled selected>Выберите тариф</option>
+          <option value="STANDARD" data-price="5000">STANDARD — 5 000 ₽</option>
+          <option value="STANDARD+ROAD" data-price="6000">STANDARD + ROAD — 6 000 ₽</option>
+        </select>
+        <span class="field-error">Выберите тариф</span>
+      </div>
+      <div class="form-group">
+        <label for="f-qty">Количество мест *</label>
+        <div class="qty-control">
+          <button type="button" class="qty-btn" id="qty-minus">−</button>
+          <input type="number" id="f-qty" name="qty" value="1" min="1" max="10" required readonly>
+          <button type="button" class="qty-btn" id="qty-plus">+</button>
+        </div>
+      </div>
+      <div class="form-total" id="form-total" style="display:none;">
+        Итого: <strong id="total-amount">0 ₽</strong>
+      </div>
+      <div class="form-group">
+        <label for="f-comment">Примечание</label>
+        <textarea id="f-comment" name="comment" rows="3" placeholder="Например: хочу поучаствовать в турнире по бирпонгу, буду с собачкой"></textarea>
+      </div>
+
+      <!-- Место для подключения платёжного виджета (ЮКасса / Тинькофф и др.) -->
+      <div id="payment-widget-container"></div>
+
+      <button type="submit" class="btn btn--full">Отправить заявку</button>
+      <p class="form-legal">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+    </form>
+
+    <div class="form-success" id="form-success" style="display:none;">
+      <div class="success-icon">✓</div>
+      <h3>Заявка принята!</h3>
+      <p>Мы свяжемся с вами в ближайшее время для подтверждения и оплаты.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // Modal
+  const modal = document.getElementById('modal');
+  const modalClose = document.getElementById('modal-close');
+
+  function openModal(tariff) {
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    if (tariff) {
+      const sel = document.getElementById('f-tariff');
+      for (let opt of sel.options) {
+        if (opt.value === tariff) { sel.value = tariff; break; }
+      }
+    }
+  }
+
+  function closeModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // Все кнопки «Зарегистрироваться»
+  document.querySelectorAll('a.btn[href="#pricing"], a.btn[href^="mailto"]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      openModal();
+    });
+  });
+
+  // Кнопки в карточках тарифов — передаём тариф
+  document.querySelectorAll('.price-card').forEach(card => {
+    const btn = card.querySelector('.btn');
+    const name = card.querySelector('.price-name');
+    if (btn && name) {
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        openModal(name.textContent.trim());
+      });
+    }
+  });
+
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  // Количество мест + итого
+  const qtyInput = document.getElementById('f-qty');
+  const tariffSel = document.getElementById('f-tariff');
+  const totalBlock = document.getElementById('form-total');
+  const totalAmount = document.getElementById('total-amount');
+
+  function updateTotal() {
+    const opt = tariffSel.options[tariffSel.selectedIndex];
+    const price = opt && opt.dataset.price ? parseInt(opt.dataset.price) : 0;
+    const qty = parseInt(qtyInput.value) || 1;
+    if (price) {
+      totalBlock.style.display = 'block';
+      totalAmount.textContent = (price * qty).toLocaleString('ru-RU') + ' ₽';
+    } else {
+      totalBlock.style.display = 'none';
+    }
+  }
+
+  document.getElementById('qty-minus').addEventListener('click', () => {
+    if (qtyInput.value > 1) { qtyInput.value--; updateTotal(); }
+  });
+  document.getElementById('qty-plus').addEventListener('click', () => {
+    if (qtyInput.value < 10) { qtyInput.value++; updateTotal(); }
+  });
+  tariffSel.addEventListener('change', updateTotal);
+
+  // Валидация и отправка формы
+  document.getElementById('reg-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    let valid = true;
+
+    this.querySelectorAll('[required]').forEach(field => {
+      const group = field.closest('.form-group');
+      if (!field.value.trim() || !field.checkValidity()) {
+        group.classList.add('invalid');
+        valid = false;
+      } else {
+        group.classList.remove('invalid');
+      }
+    });
+
+    if (!valid) return;
+
+    const data = {
+      name: this.name.value,
+      phone: this.phone.value,
+      email: this.email.value,
+      tariff: this.tariff.value,
+      qty: qtyInput.value,
+      total: totalAmount.textContent,
+      comment: this.comment.value
+    };
+    // TODO: здесь подключить API оплаты или отправку на сервер
+    console.log('Заявка:', data);
+    this.style.display = 'none';
+    document.getElementById('modal-title').style.display = 'none';
+    document.getElementById('modal-subtitle').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+  });
+
+  // Снимаем ошибку при вводе
+  document.getElementById('reg-form').querySelectorAll('input, select, textarea').forEach(field => {
+    field.addEventListener('input', () => {
+      field.closest('.form-group')?.classList.remove('invalid');
+    });
+  });
+</script>
+
+</body>
+</html>
