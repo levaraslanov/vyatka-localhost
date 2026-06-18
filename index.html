@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
@@ -421,7 +421,7 @@
   <div class="container">
     <div class="venue-grid">
       <div class="venue-video-wrap">
-        <img src="Кавер.jpg" alt="Парк Инженер" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;">
+        <img src="cover.jpg" alt="Парк Инженер" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;">
       </div>
       <div class="venue-text">
         <h2>🏕 Место проведения<br>Вятка localhost</h2>
@@ -448,7 +448,7 @@
     <div class="cards-grid">
 
       <div class="card">
-        <div class="card-img" style="background-image:url('Что будет на вятка LH/Конференция.jpg'); background-size:cover; background-position:center;"></div>
+        <div class="card-img" style="background-image:url('activities/conference.jpg'); background-size:cover; background-position:center;"></div>
         <div class="card-body">
           <div class="card-title">Конференция</div>
           <div class="card-desc">
@@ -466,7 +466,7 @@
       </div>
 
       <div class="card">
-        <div class="card-img" style="background-image:url('Что будет на вятка LH/Нетворкинг.jpg'); background-size:cover; background-position:center;"></div>
+        <div class="card-img" style="background-image:url('activities/networking.jpg'); background-size:cover; background-position:center;"></div>
         <div class="card-body">
           <div class="card-title">Нетворкинг</div>
           <div class="card-desc">
@@ -481,7 +481,7 @@
       </div>
 
       <div class="card">
-        <div class="card-img" style="background-image:url('Что будет на вятка LH/Активности.jpg'); background-size:cover; background-position:center;"></div>
+        <div class="card-img" style="background-image:url('activities/activities.jpg'); background-size:cover; background-position:center;"></div>
         <div class="card-body">
           <div class="card-title">Активности</div>
           <div class="card-desc">
@@ -551,7 +551,7 @@
       </div>
 
       <div class="speaker-card">
-        <div class="speaker-avatar"><img src="спикеры/Алексей Конышев.jpg" alt="Алексей Конышев" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="speaker-avatar"><img src="speakers/aleksey-konyshev.jpg" alt="Алексей Конышев" style="width:100%;height:100%;object-fit:cover;"></div>
         <div class="speaker-name">Алексей Конышев</div>
         <div class="speaker-company">CEO · Метафабрика</div>
         <div class="speaker-talk">«Ликбез по разработке мультиагентных систем»</div>
@@ -672,9 +672,9 @@
           </text>
         </svg>
       </div>
-      <div class="partner-item"><img src="партнеры/прямоугольные/Инженер.png" alt="Парк Инженер"></div>
-      <div class="partner-item"><img src="партнеры/прямоугольные/Арт-терапия.png" alt="Арт-терапия"></div>
-      <div class="partner-item"><img src="партнеры/прямоугольные/Нетворкинг.png" alt="Нетворкинг"></div>
+      <div class="partner-item"><img src="partners/inzhener.png" alt="Парк Инженер"></div>
+      <div class="partner-item"><img src="partners/art-terapiya.png" alt="Арт-терапия"></div>
+      <div class="partner-item"><img src="partners/networking.png" alt="Нетворкинг"></div>
       <div class="partner-item partner-item--placeholder">Это местечко ещё свободно</div>
       <div class="partner-item partner-item--placeholder">Это местечко ещё свободно</div>
     </div>
@@ -1011,7 +1011,7 @@
 
   // Промокод
   const VALID_PROMO = 'SYNSALE';
-  const PROMO_DISCOUNT = 0.1; // 10%
+  const PROMO_DISCOUNT = 0.15; // 15%
   let promoApplied = false;
 
   document.getElementById('f-promo').addEventListener('input', function() {
