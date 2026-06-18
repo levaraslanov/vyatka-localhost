@@ -1,0 +1,2826 @@
+{
+  "generatedAt": "2026-06-17T07:56:53.613Z",
+  "source": {
+    "requestedUrl": "https://synaptik.ru/ssd2022/",
+    "cdxUrl": "https://web.archive.org/cdx/search/cdx?url=synaptik.ru/ssd2022/*&output=json",
+    "cdxRecords": [
+      {
+        "timestamp": "20220816061157",
+        "original": "https://synaptik.ru/ssd2022/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "OMTHG76QEL62C6X6LTD35NFDEDVDNNSK",
+        "length": "33705"
+      },
+      {
+        "timestamp": "20221005042650",
+        "original": "https://synaptik.ru/ssd2022/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "CO6W3V2CHP4D4BWJW3QMVRTRGOBY52R5",
+        "length": "33860"
+      },
+      {
+        "timestamp": "20251109092723",
+        "original": "https://synaptik.ru/ssd2022/",
+        "statuscode": "308",
+        "mimetype": "unk",
+        "digest": "4XCTFG7BIGNFRSZ5GDYIJC2LMNHJQTB6",
+        "length": "327"
+      },
+      {
+        "timestamp": "20251109111627",
+        "original": "https://synaptik.ru/ssd2022",
+        "statuscode": "404",
+        "mimetype": "text/html",
+        "digest": "7QEK4GOLQEL77LF3D2DZVIXXSDMIVZKC",
+        "length": "6368"
+      },
+      {
+        "timestamp": "20220816061030",
+        "original": "https://synaptik.ru/ssd2022_pamyatka/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "WM7XUT3PG5VE2AWBFTNTVODSGAEXCSDO",
+        "length": "18818"
+      },
+      {
+        "timestamp": "20221005055115",
+        "original": "https://synaptik.ru/ssd2022_pamyatka/",
+        "statuscode": "200",
+        "mimetype": "text/html",
+        "digest": "NHQQII5UXV5CKDZDOAE2NCF4PTXHCQ7M",
+        "length": "18917"
+      }
+    ],
+    "searchesWithNoConference2023Matches": [
+      "https://web.archive.org/cdx/search/cdx?url=synaptik.ru/ssd2023*&output=json",
+      "https://web.archive.org/cdx/search/cdx?url=synaptik.ru/*2023*&output=json&filter=statuscode:200"
+    ]
+  },
+  "captures": [
+    {
+      "id": "ssd2022_20220816061157",
+      "title": "SSD 2022 main page, 2022-08-16",
+      "timestamp": "20220816061157",
+      "original": "https://synaptik.ru/ssd2022/",
+      "sourceFile": "ssd2022_20220816061157.raw.html",
+      "outputDir": "20220816061157-ssd2022",
+      "outputFile": "index.html",
+      "rawArchiveUrl": "https://web.archive.org/web/20220816061157id_/https://synaptik.ru/ssd2022/",
+      "localHtml": "site/20220816061157-ssd2022/index.html",
+      "rawHtml": "source-html/ssd2022_20220816061157.raw.html"
+    },
+    {
+      "id": "ssd2022_20221005042650",
+      "title": "SSD 2022 main page, 2022-10-05",
+      "timestamp": "20221005042650",
+      "original": "https://synaptik.ru/ssd2022/",
+      "sourceFile": "ssd2022_20221005042650.raw.html",
+      "outputDir": "20221005042650-ssd2022",
+      "outputFile": "index.html",
+      "rawArchiveUrl": "https://web.archive.org/web/20221005042650id_/https://synaptik.ru/ssd2022/",
+      "localHtml": "site/20221005042650-ssd2022/index.html",
+      "rawHtml": "source-html/ssd2022_20221005042650.raw.html"
+    },
+    {
+      "id": "ssd2022_pamyatka_20220816061030",
+      "title": "SSD 2022 memo page, 2022-08-16",
+      "timestamp": "20220816061030",
+      "original": "https://synaptik.ru/ssd2022_pamyatka/",
+      "sourceFile": "ssd2022_pamyatka_20220816061030.raw.html",
+      "outputDir": "20220816061030-ssd2022-pamyatka",
+      "outputFile": "index.html",
+      "rawArchiveUrl": "https://web.archive.org/web/20220816061030id_/https://synaptik.ru/ssd2022_pamyatka/",
+      "localHtml": "site/20220816061030-ssd2022-pamyatka/index.html",
+      "rawHtml": "source-html/ssd2022_pamyatka_20220816061030.raw.html"
+    },
+    {
+      "id": "ssd2022_pamyatka_20221005055115",
+      "title": "SSD 2022 memo page, 2022-10-05",
+      "timestamp": "20221005055115",
+      "original": "https://synaptik.ru/ssd2022_pamyatka/",
+      "sourceFile": "ssd2022_pamyatka_20221005055115.raw.html",
+      "outputDir": "20221005055115-ssd2022-pamyatka",
+      "outputFile": "index.html",
+      "rawArchiveUrl": "https://web.archive.org/web/20221005055115id_/https://synaptik.ru/ssd2022_pamyatka/",
+      "localHtml": "site/20221005055115-ssd2022-pamyatka/index.html",
+      "rawHtml": "source-html/ssd2022_pamyatka_20221005055115.raw.html"
+    }
+  ],
+  "assets": [
+    {
+      "key": "https://synaptik.ru/files/favicon_20211126155153.svg",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005220id_/https://synaptik.ru/files/favicon_20211126155153.svg",
+      "cdxRecord": {
+        "timestamp": "20220307005220",
+        "original": "https://synaptik.ru/files/favicon_20211126155153.svg",
+        "statuscode": "200",
+        "mimetype": "image/svg+xml",
+        "digest": "6DXRNKX3TPLSJMYOAOO7ZVZQCCNT6U62",
+        "length": "864",
+        "cdxCandidate": "synaptik.ru/files/*"
+      },
+      "refs": [
+        {
+          "raw": "/files/favicon_20211126155153.svg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/files/favicon_20211126155153.svg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/files/favicon_20211126155153.svg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/files/favicon_20211126155153.svg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ],
+      "localPath": "assets/synaptik.ru/files/favicon_20211126155153.svg",
+      "size": 750,
+      "contentType": "image/svg+xml"
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_animations_slideup.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004221423id_/https://synaptik.ru/_s/build/theme/4/_animations_slideup.css?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_animations_slideup__q_a30518e732.css",
+      "size": 5562,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004221423",
+        "original": "https://synaptik.ru/_s/build/theme/4/_animations_slideup.css?1664806073581",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "R7TDB7GOUVNERBNPXVB3SWSZUQSDHH56",
+        "length": "1167",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_animations_slideup.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_animations_slideup.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_core.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221005002157id_/https://synaptik.ru/_s/build/theme/4/_core.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_core.css",
+      "size": 29269,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221005002157",
+        "original": "https://synaptik.ru/_s/build/theme/4/_core.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "BCFXLVEPJZ7FZWJ4MGEGEXDIICGVPVXG",
+        "length": "5437",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_core.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_core.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/core_components.css?1660586089037",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/core_components.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/core_components.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/menu.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004230511id_/https://synaptik.ru/_s/build/theme/4/components/menu.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/menu.css",
+      "size": 9137,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004230511",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/menu.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "UFOL2LOYKIWSDWWH44CFJ2WLVMMVB3VA",
+        "length": "1861",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/menu.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/menu.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/socials.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004210607id_/https://synaptik.ru/_s/build/theme/4/components/socials.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/socials.css",
+      "size": 5400,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004210607",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/socials.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "OQNI5CV3IRWBYZBO3JWRQO5I24JQHMXD",
+        "length": "1534",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/socials.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/socials.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/form.css?1660586089037",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/form.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/form.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_app/lp/1493692_1659011756.css",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_app/lp/1493692_1659011756.css",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_app/lp/1493692_1659011756.css",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_app/lp/1444134_1654694369.css",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220616080032id_/https://synaptik.ru/_app/lp/1444134_1654694369.css",
+      "localPath": "assets/synaptik.ru/_app/lp/1444134_1654694369.css",
+      "size": 15289,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20220616080032",
+        "original": "https://synaptik.ru/_app/lp/1444134_1654694369.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "KEUW5HUB7PCA3QVLFPD7SIG6PUNFUIXI",
+        "length": "3092",
+        "cdxCandidate": "synaptik.ru/_app/*"
+      },
+      "refs": [
+        {
+          "raw": "/_app/lp/1444134_1654694369.css",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_app/lp/1444134_1654694369.css",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_app/lp/1444134_1654694369.css",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/_app/lp/1444134_1654694369.css",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005230id_/https://synaptik.ru/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+      "localPath": "assets/synaptik.ru/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+      "size": 89918,
+      "contentType": "application/javascript; charset=utf-8",
+      "cdxRecord": {
+        "timestamp": "20220307005230",
+        "original": "https://synaptik.ru/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+        "statuscode": "200",
+        "mimetype": "application/javascript",
+        "digest": "SHX7S6MPMEDP2FSDB7JBZ7NTADT3IHZR",
+        "length": "31584",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/lib/jquery/jquery-3.6.0+debounce.min.js",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25681632.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25681632.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25681632.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25682509.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25682509.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25682509.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25682509.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25682509.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/20546577.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/20546577.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/20546577.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/20546577.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/20546577.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25682491.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25682491.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25682491.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25682491.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25682491.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25682473.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25682473.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25682473.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25682473.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25682473.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25691572.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25691572.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25691572.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25691572.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25691572.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25691585.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25691585.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25691585.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25691585.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25691585.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25734835.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25734835.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25734835.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25734835.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25734835.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25699559.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25699559.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25699559.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25699559.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25699559.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25681273.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25681273.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25681273.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25681273.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25681273.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25762026.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25762026.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25762026.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25762026.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25762026.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25702845.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25702845.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25702845.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25702845.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25702845.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25675405.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25675405.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25675405.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25675405.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25675405.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25734984.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25734984.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25734984.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25734984.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25734984.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25734949.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25734949.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25734949.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25734949.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25734949.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25745476.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25745476.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25745476.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25745476.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25745476.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25684004.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25684004.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25684004.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25684004.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25684004.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25683930.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25683930.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25683930.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25683930.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25683930.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25684303.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25684303.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25684303.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25684303.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25684303.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25736366.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25736366.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25736366.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25736366.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25736366.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25736326.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25736326.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25736326.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25736326.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25736326.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/images/v3/theme/4/res/slider.svg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-small-1",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#btn-small-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-small-1",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#btn-small-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-medium-1",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#btn-medium-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-medium-1",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#btn-medium-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-small-1",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#btn-small-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-small-1",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#btn-small-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-medium-1",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#btn-medium-1"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/slider.svg#btn-medium-1",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#btn-medium-1"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25677938.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25677938.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25677938.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25677938.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25677938.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25771461.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25771461.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25771461.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25771461.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25771461.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25806624.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25806624.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25806624.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25806624.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25806624.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25806959.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25806959.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25806959.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25806959.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25806959.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/23845639.jpg",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005258id_/https://synaptik.ru/img/23845639.jpg",
+      "localPath": "assets/synaptik.ru/img/23845639.jpg",
+      "size": 470672,
+      "contentType": "image/jpeg",
+      "cdxRecord": {
+        "timestamp": "20220307005258",
+        "original": "https://synaptik.ru/img/23845639.jpg",
+        "statuscode": "200",
+        "mimetype": "image/jpeg",
+        "digest": "SZIFALWID3TQBBAI7SXTXSQIGQPS4EWF",
+        "length": "467187",
+        "cdxCandidate": "synaptik.ru/img/*"
+      },
+      "refs": [
+        {
+          "raw": "/img/23845639.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/23845639.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/23845639.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/23845639.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/images/svg/budicon/65.svg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/images/svg/budicon/65.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/budicon/65.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/images/svg/budicon/115.svg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/images/svg/budicon/115.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/budicon/115.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/23105392.svg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/23105392.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/img/23105392.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/23845233.svg",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220322140444id_/https://synaptik.ru/img/23845233.svg",
+      "localPath": "assets/synaptik.ru/img/23845233.svg",
+      "size": 2724,
+      "contentType": "image/svg+xml",
+      "cdxRecord": {
+        "timestamp": "20220322140444",
+        "original": "https://synaptik.ru/img/23845233.svg",
+        "statuscode": "200",
+        "mimetype": "image/svg+xml",
+        "digest": "IXBEMG2J6JUMR67RINO46YKLK4SJR3VZ",
+        "length": "1525",
+        "cdxCandidate": "synaptik.ru/img/*"
+      },
+      "refs": [
+        {
+          "raw": "/img/23845233.svg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/img/23845233.svg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/img/23845233.svg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/23845233.svg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/images/v3/theme/4/res/socials.svg?5",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#whatsapp-color",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#whatsapp-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#telegram-color",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#telegram-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#viber-color",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#viber-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#vk-alt-color",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#vk-alt-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#whatsapp-color",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#whatsapp-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#telegram-color",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#telegram-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#viber-color",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#viber-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#vk-alt-color",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#vk-alt-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#whatsapp-color",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#whatsapp-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#telegram-color",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#telegram-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#viber-color",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#viber-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#vk-alt-color",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#vk-alt-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#whatsapp-color",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#whatsapp-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#telegram-color",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#telegram-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#viber-color",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#viber-color"
+        },
+        {
+          "raw": "/_s/images/v3/theme/4/res/socials.svg?5#vk-alt-color",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#vk-alt-color"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/images/svg/times/4px.svg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#icon"
+        },
+        {
+          "raw": "/_s/images/svg/times/4px.svg#icon",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "#icon"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_cookies.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004213924id_/https://synaptik.ru/_s/build/theme/4/_cookies.css?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_cookies__q_a30518e732.css",
+      "size": 9348,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004213924",
+        "original": "https://synaptik.ru/_s/build/theme/4/_cookies.css?1664806073581",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "4CATROZKTUBPHD6GBMRDOX6OE7GBPVLS",
+        "length": "1516",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_cookies.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_cookies.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_policy_warning.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221005010951id_/https://synaptik.ru/_s/build/theme/4/_policy_warning.css?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_policy_warning__q_a30518e732.css",
+      "size": 2174,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221005010951",
+        "original": "https://synaptik.ru/_s/build/theme/4/_policy_warning.css?1664806073581",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "J5VOSX2XCIXYB444XQPHHB753WFWXD72",
+        "length": "803",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_policy_warning.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_policy_warning.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_fixes.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220315053859id_/https://synaptik.ru/_s/build/theme/4/_fixes.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_fixes.css",
+      "size": 2001,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20220315053859",
+        "original": "https://synaptik.ru/_s/build/theme/4/_fixes.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "ZOM2E2XYD32AOCV2I5Z5DVQVY3HBLXRJ",
+        "length": "766",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_fixes.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_fixes.css?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/map.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004185436id_/https://synaptik.ru/_s/build/theme/4/components/map.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/map.css",
+      "size": 626,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004185436",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/map.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "SUHQIBJ7TDCTHPVUV33UNPOD4JR4NIBT",
+        "length": "465",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/map.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/swiper.css?1660586089037",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/swiper.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/slider.css?1660586089037",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/slider.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/video.css?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004213128id_/https://synaptik.ru/_s/build/theme/4/components/video.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/video.css",
+      "size": 2597,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004213128",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/video.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "7F3HG53ET2QJIL5JNNLVTFLCOT322JWT",
+        "length": "855",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/video.css?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_core.js?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220314201702id_/https://synaptik.ru/_s/build/theme/4/_core.js",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_core.js",
+      "size": 230449,
+      "contentType": "application/javascript; charset=utf-8",
+      "cdxRecord": {
+        "timestamp": "20220314201702",
+        "original": "https://synaptik.ru/_s/build/theme/4/_core.js",
+        "statuscode": "200",
+        "mimetype": "application/javascript",
+        "digest": "3W2VJ7SBQSHMCLRB2VU6EC3F6WVO6RJY",
+        "length": "62060",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_core.js?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_core.js?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_components.js?1660586089037",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004185440id_/https://synaptik.ru/_s/build/theme/4/_components.js",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_components.js",
+      "size": 124622,
+      "contentType": "application/javascript; charset=utf-8",
+      "cdxRecord": {
+        "timestamp": "20221004185440",
+        "original": "https://synaptik.ru/_s/build/theme/4/_components.js",
+        "statuscode": "200",
+        "mimetype": "application/javascript",
+        "digest": "JUEAV5J3VMKWHK56IKOEICEBLXT2VOVG",
+        "length": "34383",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_components.js?1660586089037",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_components.js?1660586089037",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/js/client/4/ACEILMPVdegijoprtwyz-797b3344.js",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/js/client/4/ACEILMPVdegijoprtwyz-797b3344.js",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25675084.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25675084.jpg",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25675084.jpg",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25677720.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25677720.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25677720.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25677857.png",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25677857.png",
+          "captureId": "ssd2022_20220816061157",
+          "refTimestamp": "20220816061157",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25677857.png",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_animations_slideup.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004221423id_/https://synaptik.ru/_s/build/theme/4/_animations_slideup.css?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_animations_slideup__q_a30518e732.css",
+      "size": 5562,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004221423",
+        "original": "https://synaptik.ru/_s/build/theme/4/_animations_slideup.css?1664806073581",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "R7TDB7GOUVNERBNPXVB3SWSZUQSDHH56",
+        "length": "1167",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_animations_slideup.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_animations_slideup.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_core.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221005002157id_/https://synaptik.ru/_s/build/theme/4/_core.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_core.css",
+      "size": 29269,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221005002157",
+        "original": "https://synaptik.ru/_s/build/theme/4/_core.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "BCFXLVEPJZ7FZWJ4MGEGEXDIICGVPVXG",
+        "length": "5437",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_core.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_core.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/core_components.css?1664806073581",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/core_components.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/core_components.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/menu.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004230511id_/https://synaptik.ru/_s/build/theme/4/components/menu.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/menu.css",
+      "size": 9137,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004230511",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/menu.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "UFOL2LOYKIWSDWWH44CFJ2WLVMMVB3VA",
+        "length": "1861",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/menu.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/menu.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/socials.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004210607id_/https://synaptik.ru/_s/build/theme/4/components/socials.css",
+      "cdxRecord": {
+        "timestamp": "20221004210607",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/socials.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "OQNI5CV3IRWBYZBO3JWRQO5I24JQHMXD",
+        "length": "1534",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/socials.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/socials.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ],
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/socials.css",
+      "size": 5400,
+      "contentType": "text/css"
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/form.css?1664806073581",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/form.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/components/form.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_cookies.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004213924id_/https://synaptik.ru/_s/build/theme/4/_cookies.css?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_cookies__q_a30518e732.css",
+      "size": 9348,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004213924",
+        "original": "https://synaptik.ru/_s/build/theme/4/_cookies.css?1664806073581",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "4CATROZKTUBPHD6GBMRDOX6OE7GBPVLS",
+        "length": "1516",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_cookies.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_cookies.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_policy_warning.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221005010951id_/https://synaptik.ru/_s/build/theme/4/_policy_warning.css?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_policy_warning__q_a30518e732.css",
+      "size": 2174,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221005010951",
+        "original": "https://synaptik.ru/_s/build/theme/4/_policy_warning.css?1664806073581",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "J5VOSX2XCIXYB444XQPHHB753WFWXD72",
+        "length": "803",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_policy_warning.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_policy_warning.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_fixes.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220315053859id_/https://synaptik.ru/_s/build/theme/4/_fixes.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_fixes.css",
+      "size": 2001,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20220315053859",
+        "original": "https://synaptik.ru/_s/build/theme/4/_fixes.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "ZOM2E2XYD32AOCV2I5Z5DVQVY3HBLXRJ",
+        "length": "766",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_fixes.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_fixes.css?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/map.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004185436id_/https://synaptik.ru/_s/build/theme/4/components/map.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/map.css",
+      "size": 626,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004185436",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/map.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "SUHQIBJ7TDCTHPVUV33UNPOD4JR4NIBT",
+        "length": "465",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/map.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/swiper.css?1664806073581",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/swiper.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/slider.css?1664806073581",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/slider.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/components/video.css?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004213128id_/https://synaptik.ru/_s/build/theme/4/components/video.css",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/components/video.css",
+      "size": 2597,
+      "contentType": "text/css",
+      "cdxRecord": {
+        "timestamp": "20221004213128",
+        "original": "https://synaptik.ru/_s/build/theme/4/components/video.css",
+        "statuscode": "200",
+        "mimetype": "text/css",
+        "digest": "7F3HG53ET2QJIL5JNNLVTFLCOT322JWT",
+        "length": "855",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/components/video.css?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_core.js?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220314201702id_/https://synaptik.ru/_s/build/theme/4/_core.js",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_core.js",
+      "size": 230449,
+      "contentType": "application/javascript; charset=utf-8",
+      "cdxRecord": {
+        "timestamp": "20220314201702",
+        "original": "https://synaptik.ru/_s/build/theme/4/_core.js",
+        "statuscode": "200",
+        "mimetype": "application/javascript",
+        "digest": "3W2VJ7SBQSHMCLRB2VU6EC3F6WVO6RJY",
+        "length": "62060",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_core.js?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_core.js?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/build/theme/4/_components.js?1664806073581",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20221004202852id_/https://synaptik.ru/_s/build/theme/4/_components.js?1664806073581",
+      "localPath": "assets/synaptik.ru/_s/build/theme/4/_components__q_a30518e732.js",
+      "size": 124622,
+      "contentType": "application/javascript; charset=utf-8",
+      "cdxRecord": {
+        "timestamp": "20221004202852",
+        "original": "https://synaptik.ru/_s/build/theme/4/_components.js?1664806073581",
+        "statuscode": "200",
+        "mimetype": "application/javascript",
+        "digest": "JUEAV5J3VMKWHK56IKOEICEBLXT2VOVG",
+        "length": "34396",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "/_s/build/theme/4/_components.js?1664806073581",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        },
+        {
+          "raw": "/_s/build/theme/4/_components.js?1664806073581",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/js/client/4/ACEJMNPVdegijoprtwyz-72837f71.js",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/js/client/4/ACEJMNPVdegijoprtwyz-72837f71.js",
+          "captureId": "ssd2022_20221005042650",
+          "refTimestamp": "20221005042650",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_app/lp/1506719_1659155113.css",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/_app/lp/1506719_1659155113.css",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/_app/lp/1506719_1659155113.css",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25798091.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25798091.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798091.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25798091.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798091.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25798086.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25798086.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25798147.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25798147.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798147.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25798147.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25798147.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25800586.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25800586.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25800586.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25800586.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25800586.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25800515.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25800515.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/img/25801074.jpg",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/img/25801074.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25801074.jpg",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": "",
+          "synthetic": "data-img-id"
+        },
+        {
+          "raw": "/img/25801074.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        },
+        {
+          "raw": "/img/25801074.jpg",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": "",
+          "synthetic": "data-img-id"
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/js/client/4/ACILMPdefor-797b3344.js",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/js/client/4/ACILMPdefor-797b3344.js",
+          "captureId": "ssd2022_pamyatka_20220816061030",
+          "refTimestamp": "20220816061030",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/js/client/4/ACJMNPdefor-72837f71.js",
+      "status": "missing-cdx",
+      "cdxRecord": null,
+      "refs": [
+        {
+          "raw": "/js/client/4/ACJMNPdefor-72837f71.js",
+          "captureId": "ssd2022_pamyatka_20221005055115",
+          "refTimestamp": "20221005055115",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/files/fonts/roboto-ruble-300.woff2",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005220id_/https://synaptik.ru/_s/files/fonts/roboto-ruble-300.woff2",
+      "localPath": "assets/synaptik.ru/_s/files/fonts/roboto-ruble-300.woff2",
+      "size": 644,
+      "contentType": "font/woff2",
+      "cdxRecord": {
+        "timestamp": "20220307005220",
+        "original": "https://synaptik.ru/_s/files/fonts/roboto-ruble-300.woff2",
+        "statuscode": "200",
+        "mimetype": "font/woff2",
+        "digest": "XHSS5JHPXZ77PWWOATQNHMR7ANPQUH6F",
+        "length": "1176",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-300.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1660586089037",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        },
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-300.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1664806073581",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/files/fonts/roboto-ruble-400.woff2",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005221id_/https://synaptik.ru/_s/files/fonts/roboto-ruble-400.woff2",
+      "localPath": "assets/synaptik.ru/_s/files/fonts/roboto-ruble-400.woff2",
+      "size": 640,
+      "contentType": "font/woff2",
+      "cdxRecord": {
+        "timestamp": "20220307005221",
+        "original": "https://synaptik.ru/_s/files/fonts/roboto-ruble-400.woff2",
+        "statuscode": "200",
+        "mimetype": "font/woff2",
+        "digest": "SLWQUFHOR2ZJINYXUZG3BEIXGXRNCEYA",
+        "length": "1176",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-400.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1660586089037",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        },
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-400.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1664806073581",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/files/fonts/roboto-ruble-500.woff2",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005223id_/https://synaptik.ru/_s/files/fonts/roboto-ruble-500.woff2",
+      "localPath": "assets/synaptik.ru/_s/files/fonts/roboto-ruble-500.woff2",
+      "size": 692,
+      "contentType": "font/woff2",
+      "cdxRecord": {
+        "timestamp": "20220307005223",
+        "original": "https://synaptik.ru/_s/files/fonts/roboto-ruble-500.woff2",
+        "statuscode": "200",
+        "mimetype": "font/woff2",
+        "digest": "PSZKQPE5R4ED4Y2OQLGURXGBDZBMVFVO",
+        "length": "1232",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-500.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1660586089037",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        },
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-500.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1664806073581",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "key": "https://synaptik.ru/_s/files/fonts/roboto-ruble-700.woff2",
+      "status": "downloaded",
+      "archiveUrl": "https://web.archive.org/web/20220307005224id_/https://synaptik.ru/_s/files/fonts/roboto-ruble-700.woff2",
+      "localPath": "assets/synaptik.ru/_s/files/fonts/roboto-ruble-700.woff2",
+      "size": 680,
+      "contentType": "font/woff2",
+      "cdxRecord": {
+        "timestamp": "20220307005224",
+        "original": "https://synaptik.ru/_s/files/fonts/roboto-ruble-700.woff2",
+        "statuscode": "200",
+        "mimetype": "font/woff2",
+        "digest": "SHAKDXSBFSCPFLAHNNN5WGU6MXCZ7JW7",
+        "length": "1221",
+        "cdxCandidate": "synaptik.ru/_s/*"
+      },
+      "refs": [
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-700.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1660586089037",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        },
+        {
+          "raw": "\"/_s/files/fonts/roboto-ruble-700.woff2\"",
+          "captureId": "https://synaptik.ru/_s/build/theme/4/_core.css?1664806073581",
+          "refTimestamp": "20221005002157",
+          "hash": ""
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "assetsTotal": 85,
+    "assetsDownloaded": 31,
+    "assetsMissing": 54,
+    "bytesInAssets": 1127836
+  }
+}
